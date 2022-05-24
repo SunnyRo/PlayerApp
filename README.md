@@ -1,15 +1,9 @@
-# **PlayerModel2 app**
+# **PlayerApp**
 
-## Using Interface, abstract class, extension methods.
+### App that create a database and table bound to model (Player.cs) Code first approach
 
-### This app allows user to create a number of playermodel,bot in different ways.
+# **How to run**
 
-### it also give user different options to print the data that user've created.
+### Correct the ConnectionStrings in appsetting.json to match with your database server
 
-### This app have some input validation so please make sure you enter the right input.
-
-# **Updated monday 05/23/2022**
-
-### used the extension methods to print player information
-
-### Write all models to both data.txt and data.json
+### Use "Update-Database" to package Manager Console to create Player table
